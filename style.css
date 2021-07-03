@@ -1,5 +1,4 @@
 *{
-    
     box-sizing: border-box;
 }
 body{
@@ -27,16 +26,13 @@ span{
     font-weight: 700;
     border-radius: 5px;
 }
-button:hover{
-    background-color: black;
-}
 .button_link a{
     color:white;
     text-decoration: none;
 }
 .half-width1{
     margin-top: 70px;
-    width: 50%;
+    width: 55%;
     padding-left: 5%;
 }
 .half-width1 p{
@@ -51,7 +47,7 @@ button:hover{
     width: 60%;
     height: 60%;
     border-radius: 210px;
-    box-shadow: 5px 5px 3px gray;
+    box-shadow: 5px 5px 30px gray;
 }
 .dream_page{
     display: flex;
@@ -72,8 +68,8 @@ button:hover{
     margin-top: 18%;
     width: 60%;
     height: 60%;
-    border-radius: 210px;
-    box-shadow: 5px 5px 3px gray;
+    border-radius: 50px;
+    box-shadow: 5px 5px 40px gray;
 }
 .half-width4{
     margin-top: 70px;
@@ -82,4 +78,87 @@ button:hover{
 }
 .half-width4 p{
     text-align: justify;
+}
+.exprience_page{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 240px;
+}
+.e_heading{
+    text-align: center;
+    color: crimson;
+    text-shadow: 2px 2px 2px gray;
+}
+.line{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    position: relative;
+}
+.logo{
+    align-items: center;
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border: 1px solid red;
+    margin-bottom: 15px;
+    margin-top: 4px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 1px;
+    transform: rotate(222deg);
+    top: 3px;
+
+}
+.a{
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: gray;
+    left: 44.1%;
+    border-radius: 6px;
+    border-style: none; 
+}
+.b{
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: gray;
+    left: 51.5%;
+    border-radius: 6px;
+    border-style: none;
+}
+.container{
+    display: flex;
+    margin-top:40px;
+}
+.card{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 20px;
+}
+.card h1{
+    text-align: center;
+    color: darkslategray;
+    text-shadow: 2px 2px 2px gray;
+}
+.card h3{
+    text-align: center;
+    
+}
+#border-1{
+    border-radius: 5px;
+    border-left: 7px solid;
+    border-image: linear-gradient(#ff9966,#ff5e62);
+    border-image-slice: 1;
+}
+#border-2{
+    border-radius: 5px;
+    border-left: 7px solid;
+    border-image: linear-gradient(#ff9966,#ff5e62);
+    border-image-slice: 1;
 }
