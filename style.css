@@ -162,3 +162,8 @@ span{
     border-image: linear-gradient(#ff9966,#ff5e62);
     border-image-slice: 1;
 }
+footer{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 700;
+}
