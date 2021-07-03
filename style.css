@@ -1,0 +1,46 @@
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+section{
+    display: flex;
+    height: 100vh;
+}
+h1{
+    font-size: 40px;
+}
+span{
+    color: rgb(219, 7, 49);
+    text-shadow: 2px 2px 4px gray;
+}
+.hire_button{
+    background-image: linear-gradient(#FF416C,crimson);
+    padding: 6px 10px;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.hire_button a{
+    color:white;
+    text-decoration: none;
+
+}
+.half-width1{
+    margin-top: 60px;
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width2{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width2 img{
+    margin-top: 18%;
+    width: 60%;
+    height: 60%;
+    border-radius: 210px;
+    box-shadow: 5px 5px 5px gray;
+}
